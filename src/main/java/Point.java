@@ -5,6 +5,12 @@ public class Point {
     // Default Constructor (Exercise 3 modification needed here)
     public Point() {
         // Automatically provided if none defined
+        this(0);
+    }
+
+    public Point(int size) {
+        this.x = size;
+        this.y = size;
     }
 
     // Two-argument constructor
