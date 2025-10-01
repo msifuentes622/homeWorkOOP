@@ -35,7 +35,7 @@ public class Main {
 
         if (polyDevice instanceof Microwave) {
             Microwave newMicrowave = (Microwave) polyDevice;
-            newMicrowave.heatFood();                        //newer
+            newMicrowave.heatFood();
         }
 
         //Exercise 5
